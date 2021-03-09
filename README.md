@@ -11,8 +11,8 @@ media_folder: "[subproject]/src/static/img"
 # create a netlify website
 
 **Team overview > New site from git**
-build command: npm run build
-publish directory: \_site_
+build command: **npm run build**
+publish directory: **\_site**
 
 After the creation, go the new site's configuration
 
