@@ -10,21 +10,25 @@ media_folder: "[subproject]/src/static/img"
 
 # create a netlify website
 
-Team overview > New site from git
+**Team overview > New site from git**
 build command: npm run build
 publish directory: \_site_
 
-after creation
+After the creation, go the new site's configuration
 
-Site settings > Build settings > Base directory: site2
+## Set the base directory
+
+**Site settings > Build settings > Base directory: dating-privacy**
 
 https://docs.netlify.com/configure-builds/get-started/#basic-build-settings
 
-Enable netlify Identity
-Identity > Enable Identity
+## Enable netlify Identity
+**Identity > Enable Identity**
 https://docs.netlify.com/visitor-access/identity/#enable-identity-in-the-ui
 
-Enable git gateway
-Site settings > Identity > Services > Git Gateway, and select Enable Git Gateway
+Invite a user by adding her email address.
+
+## Enable git gateway
+**Site settings > Identity > Services > Git Gateway > Enable Git Gateway**
 https://docs.netlify.com/visitor-access/git-gateway/
 
