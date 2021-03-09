@@ -1,18 +1,30 @@
-# modify project for monorepo
+# configure subprojects for monorepo
 
-Copy root to site1 and site2.
+Make sure the netlifyCMS configurations point to the correct folders.
 
-Fix paths in siteX/src/admin/config.yml
+Fix paths in all [subproject]/src/admin/config.yml
 
 ``` yaml
-
-# media_folder: "src/static/img"
-media_folder: "site1/src/static/img"
+media_folder: "[subproject]/src/static/img"
 ```
 
-# configure netlify
-Site settings > Build settings > Base directory: site1
+# create a netlify website
 
-Create another site and change github project
+Team overview > New site from git
+build command: npm run build
+publish directory: \_site_
 
-Site settings > Build settings > Repository: link to a different repository
+after creation
+
+Site settings > Build settings > Base directory: site2
+
+https://docs.netlify.com/configure-builds/get-started/#basic-build-settings
+
+Enable netlify Identity
+Identity > Enable Identity
+https://docs.netlify.com/visitor-access/identity/#enable-identity-in-the-ui
+
+Enable git gateway
+Site settings > Identity > Services > Git Gateway, and select Enable Git Gateway
+https://docs.netlify.com/visitor-access/git-gateway/
+
