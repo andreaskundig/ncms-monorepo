@@ -5,8 +5,8 @@ backend:
   ### enable below lines for github integration ###
   # name: github
   # repo: surjithctly/neat-starter
-media_folder: "site1/src/static/img"
-public_folder: "site1/static/img"
+media_folder: "hestia-labs/src/static/img"
+public_folder: "hestia-labs/static/img"
 
 # Please run "npx netlify-cms-proxy-server" for local backend
 local_backend: true
@@ -14,7 +14,7 @@ local_backend: true
 collections:
   - label: "Blog"
     name: "blog"
-    folder: "site1/src/posts"
+    folder: "hestia-labs/src/posts"
     create: true
     editor:
       preview: false
@@ -37,7 +37,7 @@ collections:
     files:
       - label: "Navigation"
         name: "items"
-        file: "site1/src/_data/navigation.yaml"
+        file: "hestia-labs/src/_data/navigation.yaml"
         fields:
           - label: Nav Items
             name: items
@@ -49,7 +49,7 @@ collections:
               - { label: URL, name: url, widget: string }
       - label: "Quick Links"
         name: "links"
-        file: "site1/src/_data/quicklinks.yaml"
+        file: "hestia-labs/src/_data/quicklinks.yaml"
         fields:
           - label: Nav Items
             name: links
@@ -61,7 +61,7 @@ collections:
               - { label: Description, name: desc, widget: string }
       - label: "Meta Settings"
         name: "settings"
-        file: "site1/src/_data/settings.yaml"
+        file: "hestia-labs/src/_data/settings.yaml"
         fields:
           - { label: Name, name: name, widget: string }
           - { label: Author, name: author, widget: string }

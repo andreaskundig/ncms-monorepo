@@ -26,7 +26,11 @@ https://docs.netlify.com/configure-builds/get-started/#basic-build-settings
 **Identity > Enable Identity**
 https://docs.netlify.com/visitor-access/identity/#enable-identity-in-the-ui
 
+Set Registration to invite only
+**Site settings > Identity > Registration > Registration preferences > Edit Settings**
+
 Invite a user by adding her email address.
+**Identity > Invite users**
 
 ## Enable git gateway
 **Site settings > Identity > Services > Git Gateway > Enable Git Gateway**
