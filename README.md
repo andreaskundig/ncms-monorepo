@@ -14,7 +14,7 @@ media_folder: "[subproject]/src/static/img"
 
 build command: **npm run build**
 
-publish directory: **\_site**
+publish directory: **build**
 
 After the creation, go the new site's configuration
 

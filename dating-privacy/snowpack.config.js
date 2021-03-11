@@ -8,7 +8,7 @@ module.exports = {
   plugins: [
     ['@snowpack/plugin-run-script', { cmd: 'eleventy', watch: '$1 --watch' }],
     ['@snowpack/plugin-build-script',
-     {'cmd': 'cross-env NODE_ENV=production postcss src/static/css/tailwind.css --o _site/static/css/style.css',
+     {'cmd': 'cross-env NODE_ENV=production postcss src/static/css/tailwind.css --o build/static/css/style.css',
       watch: 'postcss src/static/css/tailwind.css --o _tmp/static/css/style.css --watch',
       'input': ['.css'], 'output': ['.css']}]
   ],
