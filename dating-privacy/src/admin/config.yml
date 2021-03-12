@@ -2,11 +2,12 @@ backend:
   # Use netlify identity as backend
   name: git-gateway
   branch: master
+  preview_context: netlify/dating-privacy-dev/deploy-preview
   ### enable below lines for github integration ###
   # name: github
   # repo: surjithctly/neat-starter
 media_folder: "dating-privacy/src/static/img"
-public_folder: "dating-privacy/static/img"
+public_folder: "/static/img"
 
 # Please run "npx netlify-cms-proxy-server" for local backend
 local_backend: true

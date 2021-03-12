@@ -8,6 +8,11 @@ Fix paths in all [subproject]/src/admin/config.yml
 media_folder: "[subproject]/src/static/img"
 ```
 
+For previews to work in the editorial workflow, you need to configure the preview context. It turns out it looks like this:
+
+``` yaml
+  preview_context: netlify/[name of your netlify website]/deploy-preview
+```
 # create a netlify website
 
 **Team overview > New site from git**

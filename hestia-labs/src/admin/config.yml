@@ -2,6 +2,7 @@ backend:
   # Use netlify identity as backend
   name: git-gateway
   branch: master
+  preview_context: netlify/hestia-labs-dev/deploy-preview
   ### enable below lines for github integration ###
   # name: github
   # repo: surjithctly/neat-starter
