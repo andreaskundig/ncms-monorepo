@@ -8,4 +8,4 @@ tags:
 ---
 hyia
 
-![]( "guess who's our sponsor")
+![](/static/img/engagementm_f_rgb.jpg "guess who's our sponsor")
